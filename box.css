@@ -1,0 +1,28 @@
+img{
+  width: 200px;
+}
+display: inline-block;
+
+
+
+  .texto1{
+  background-color:red;
+  width: 200px;
+  border: 10px solid;
+  padding: 10px;
+  margin: 100;
+
+.texto2{
+  background-color: pink;
+  width: 200px;
+  border: 10px solid;
+padding: 10px;
+margin: 10px 230px;
+}
+.texto3{
+background-color: yellow;
+width: 200px;
+  border: 10px solid;
+  padding: 10px;
+  margin: 100px;
+}
