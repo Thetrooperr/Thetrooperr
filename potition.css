@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+}
+
+
+.top{
+  display: inline-block;
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 100px;
+
+}
+
+.mid{
+  background-color: peru;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.bot{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
