@@ -1,5 +1,8 @@
 .nav{
-  background-color: pink; 
-
-
+  display: inline-block;
+  background-color: pink;
+width:100px;
+height: 100px;
+position:relative;
+nav:100px;
 }
