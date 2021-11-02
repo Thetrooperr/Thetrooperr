@@ -1,0 +1,10 @@
+
+.section2{
+
+  display: inline-block;
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
