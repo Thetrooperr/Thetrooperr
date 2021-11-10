@@ -1,22 +1,63 @@
 body{
-  background-color:pink;
+
+  display: inline-block;
+  background-color:gray;
+  position:relative;
+  left: 90px;
+
 }
 header{
-  background-color:pink;
+  background-color:gray;
+  text-align: center;
 }
 nav{
-background-color:pink;
+background-color:gray;
 }
 section{
-background-color:pink;
+background-color:gray;
+text-align: center;
 }
 div{
-  background-color:pink;
+  background-color:gray;
 }
 footer{
-  background-color:pink;
+  background-color:gray;
 }
 
 title{
 text-align:center;
+}
+.sombra{
+  text-shadow: 2px 4px 4px #1C6EA4;
+  text-shadow: 2px 6px 4px #5F40A4;
+}
+.navegacion li{
+  display: inline-block;
+}
+.myButton {
+color:white;
+margin: 10px;
+font-size: 14px;
+line-height: 14px;
+padding: 9px;
+border-radius: 7px;
+font-family: Georgia, serif;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+box-shadow: rgb(0, 0, 0) 0px 3px 35px 1px; border: 2px solid rgb(28, 110, 164);
+display: inline-block;}
+
+.myButton:hover {
+background: #1C6EA4; }
+.myButton:active {
+background: #144E75; }
+
+img.src{
+  border: 5px ;
+  min-height: 150px;
+  width: 200px;
 }
