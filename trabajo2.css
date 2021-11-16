@@ -1,14 +1,22 @@
 body{
-
-  display: inline-block;
   background-color:gray;
-  position:relative;
-  left: 90px;
-
 }
 header{
   background-color:gray;
   text-align: center;
+  height: 400px;
+  position: relative;
+
+}
+header div{
+  display: inline-block;
+  width: 49%;
+}
+header img{
+  position: absolute;
+  bottom: 100px;
+  height: 300px;
+
 }
 nav{
 background-color:gray;
@@ -17,13 +25,24 @@ section{
 background-color:gray;
 text-align: center;
 }
-div{
-  background-color:gray;
+article img{
+
+height: 250px
+}
+article{
+  display: inline-block;
+  width: 49%;
+  top: 100px;
 }
 footer{
   background-color:gray;
 }
-
+footer img{
+  width: 50px;
+}
+footer img:hover{
+  box-shadow: rgb(0, 0, 0) 0px 3px 35px 1px;
+}
 title{
 text-align:center;
 }
@@ -33,6 +52,7 @@ text-align:center;
 }
 .navegacion li{
   display: inline-block;
+  list-style-type:none;
 }
 .myButton {
 color:white;
@@ -56,8 +76,11 @@ background: #1C6EA4; }
 .myButton:active {
 background: #144E75; }
 
-img.src{
-  border: 5px ;
-  min-height: 150px;
-  width: 200px;
+
+
+li{
+
+    display: inline-block;
+    list-style-type:none;
+
 }
