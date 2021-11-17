@@ -1,6 +1,7 @@
 body{
   background-color:gray;
 }
+
 header{
   background-color:gray;
   text-align: center;
@@ -8,52 +9,69 @@ header{
   position: relative;
 
 }
+
 header div{
   display: inline-block;
   width: 49%;
 }
+
 header img{
   position: absolute;
   bottom: 100px;
   height: 300px;
 
 }
+
 nav{
 background-color:gray;
 }
-section{
-background-color:gray;
-text-align: center;
-}
-article img{
 
+
+
+article img{
 height: 250px
 }
+
 article{
   display: inline-block;
   width: 49%;
-  top: 100px;
 }
+
 footer{
   background-color:gray;
 }
+
 footer img{
   width: 50px;
 }
+
 footer img:hover{
   box-shadow: rgb(0, 0, 0) 0px 3px 35px 1px;
 }
+
+footer h4{
+  text-align: right;
+  box-shadow: rgb(0, 0, 0) 0px 3px 35px 1px;
+}
+
 title{
 text-align:center;
+}
+
+li{
+    display: inline-block;
+    list-style-type:none;
 }
 .sombra{
   text-shadow: 2px 4px 4px #1C6EA4;
   text-shadow: 2px 6px 4px #5F40A4;
 }
+
 .navegacion li{
   display: inline-block;
   list-style-type:none;
 }
+
 .myButton {
 color:white;
 margin: 10px;
@@ -76,11 +94,26 @@ background: #1C6EA4; }
 .myButton:active {
 background: #144E75; }
 
+.seccion1{
+  position:relative;
+  background-color: olive;
+  height: 600px;
+}
+.seccion1 h2{
+  text-align: center;
+  padding: 20px;
+}
 
-
-li{
-
-    display: inline-block;
-    list-style-type:none;
-
+.columna1{
+  position: absolute;
+  top:50px;
+  left: 10px;
+}
+.columna2{
+  position: absolute;
+  top:50px;
+  right: 10px;
+}
+.section2{
+  background-color: lavender;
 }
